@@ -17,4 +17,4 @@ There are two ways to run this project:
 * From remote machime: copy project files to your server and run any http server daemon. For example, node.js http-server can be used:
     npm install http-server -g
     http-server
-After that the project will be avaliable from the client's browser on the address: http://<ip-of-the-server>:<port-of-the-server>
+After that the project will be avaliable from the client's browser on the address: <ip-of-the-server>:<port-of-the-server>
