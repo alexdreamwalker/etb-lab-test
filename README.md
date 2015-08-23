@@ -1,23 +1,31 @@
-# etb-lab-test
+## Synopsis
 
-Тестовое задание для "лаборатории электронных учебников".
------------------------
+At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
 
-## Функционал
+## Code Example
 
-В браузере отображается интерактивная карта Москвы и поверх карты средствами выбранного API нарисован домик из коричневого квадрата и красного треугольника. После создания карта меняет свой фокус на центр Москвы, где и происходит отрисовка фигуры. Для отрисовки создан домика объект House, который включает в себя объекты Roof и Basement(которые являются экземплярами класса HousePart). Координаты фигуры вычисляются на основании viewport-a устройства, с которого производится проверка.
-------------------------
+Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
-## Требования
+## Motivation
 
-Для отображения карты используется Google Maps v3 API.
-------------------------
+A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
 
-## Порядок запуска
+## Installation
 
-* С локальной машины: загрузить файлы проекта, после чего перетащить index.html в окно браузера.
-* С удаленной машины: загрузить файлы проекта на сервер, после чего установить веб-сервер (например, node.js веб-сервер):
-    npm install http-server
-И запустить в корне проекта:
-    http-server
-Сервер запустится на порту 8080(по умолчанию, можно указать другой порт). Затем с удаленной машины проект может быть открыт в браузере, введя адрес сервера и порт: http://<server ip address>:<server port>
+Provide code examples and explanations of how to get the project.
+
+## API Reference
+
+Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+
+## Tests
+
+Describe and show how to run the tests with code examples.
+
+## Contributors
+
+Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+
+## License
+
+A short snippet describing the license (MIT, Apache, etc.)
