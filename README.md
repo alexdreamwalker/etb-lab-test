@@ -15,6 +15,7 @@ This project uses Google Maps V3 API to draw an interactive map
 There are two ways to run this project:
 * From local machine: copy project files and drag 'index.html' into your browser's window.
 * From remote machime: copy project files to your server and run any http server daemon. For example, node.js http-server can be used:
-    npm install http-server -g
-    http-server
-After that the project will be avaliable from the client's browser on the address: <ip-of-the-server>:<port-of-the-server>
+    * npm install http-server -g
+    * http-server
+
+After that the project will be avaliable from the client's browser on the address: ip-of-the-server:port-of-the-server
