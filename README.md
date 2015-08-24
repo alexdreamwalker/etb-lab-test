@@ -2,7 +2,7 @@
 
 Test project for Etb-lab.
 
-## Code Example
+## Functionality
 
 A simple object(a house), that consists of a brown rectangle and a red triangle, is drawn at the top of interactive map of Moscow. The drawing of a house was implemented as a House object, which includes HousePart objects (roof and basement) for representing a roof of a house and a basement of a house. Each part of a house can is drawn separately and a combination of HouseParts formes a house.   
 
