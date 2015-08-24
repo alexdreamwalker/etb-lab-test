@@ -59,8 +59,7 @@
 			],
 			map: options.map
 		});
-		/* Flag for indication that house was drawn or not */
-		var wasDrawn = false;	
+
 		/* To draw a house, draw all it's components */
 		this.draw = function() {
 			/* Draw the basement */
